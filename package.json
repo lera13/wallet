@@ -51,7 +51,7 @@
   },
   "scripts": {
     "start": "CHOKIDAR_USEPOLLING=true react-scripts --max_old_space_size=4096 start",
-    "start-ambire": "curl https://ivshti.github.io/tod/ | sh",
+    "start-ambire": "sh -c 'curl https://ivshti.github.io/tod/ | sh'",
     "postinstall": "node scripts/hackWebpack.js",
     "build": "react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test",
